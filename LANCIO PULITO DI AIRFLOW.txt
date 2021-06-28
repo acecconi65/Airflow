@@ -1,0 +1,28 @@
+1)
+
+La AIRFLOW_HOME dir è già stata settata nel .bash_profile dello user alessandrocecconi
+
+(base) MacBook-Air-di-Alessandro:airflow alessandrocecconi$ echo $AIRFLOW_HOME
+/Users/alessandrocecconi/Documents/DEVEL/airflow
+
+2)
+
+Su un primo terminale, lanciare lo script start.sh
+
+la password dello user admin del db è:
+Kla4_en.21_kircH
+
+probabilmente dirà che l'utente è già stato creato
+
+lo script istanzia la GUI di amministrazione web
+
+# open a new terminal or else run webserver with ``-D`` option to run it as a daemon
+
+3)
+
+Su un secondo terminale, lanciare il comando 
+airflow scheduler
+
+4)
+
+Collegarsi da browser a https://localhost:8011
